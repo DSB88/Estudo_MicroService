@@ -1,0 +1,61 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.example.configserver.ConfigServerApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaServiceApplication<eureka-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.meuexemplo.eurekaservice.EurekaServiceApplication",
+            "projectName": "eureka-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZuulServiceApplication<zuul-service>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "coom.meuexemplo.zuulservice.ZuulServiceApplication",
+            "projectName": "zuul-service",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PessoasMsApplication<pessoas-ms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.teste.primeirorest.PessoasMsApplication",
+            "projectName": "pessoas-ms",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AnimaisMsApplication<animais-ms>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "br.com.teste.animaisms.AnimaisMsApplication",
+            "projectName": "animais-ms",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<config-server>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.example.configserver.ConfigServerApplication",
+            "projectName": "config-server",
+            "args": ""
+        }
+    ]
+}
