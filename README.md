@@ -19,5 +19,6 @@ localhost do zuul-server: `localhost:8011`<br>
 4. quarto Build: controle-pessoas-ms
 5. quinto Build: controle-animais-ms<br>
 <br>
+<p align="center"><strong>Arquitetura MicroService da Aplicação</strong></p>
 
-<img align="left" src="Microservicos/arquitetura/arquitetura-ms.JPG" />
+<img align="center" src="Microservicos/arquitetura/arquitetura-ms.JPG" />
