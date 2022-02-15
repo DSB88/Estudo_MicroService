@@ -12,6 +12,8 @@ Clonar aplicação: `https://github.com/DSB88/Estudo_MicroService.git`<br>
 localhost da eureka: `localhost:8010`<br>
 localhost do zuul-server: `localhost:8011`<br>
 
+Documentação: `https://documenter.getpostman.com/view/18475038/UVkgxKB5`
+
 <strong>A ordem do build é importante, seguir conforme abaixo. </strong><br>
 1. primeiro Build: config-server
 2. segundo Build: eureka-server
