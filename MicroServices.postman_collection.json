@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "3196dacb-16e4-4c98-9061-c250f2c84cb3",
+		"name": "MicroServices",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Animals",
+			"item": [
+				{
+					"name": "Query ALL animals",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8011/controle-animais-ms/api/animais",
+							"host": [
+								"localhost"
+							],
+							"port": "8011",
+							"path": [
+								"controle-animais-ms",
+								"api",
+								"animais"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consult animals BY owner",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8011/controle-animais-ms/api/animais/2/lista",
+							"host": [
+								"localhost"
+							],
+							"port": "8011",
+							"path": [
+								"controle-animais-ms",
+								"api",
+								"animais",
+								"2",
+								"lista"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register animals",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \r\n\"dono\" : 2,\r\n\"nome\" : \"Toby\",\r\n\"idade\" : 1,\r\n\"raca\" : \"Pastor Alemão\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8011/controle-animais-ms/api/animais",
+							"host": [
+								"localhost"
+							],
+							"port": "8011",
+							"path": [
+								"controle-animais-ms",
+								"api",
+								"animais"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "People",
+			"item": [
+				{
+					"name": "Query ALL people",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8011/controle-pessoas-ms/api/pessoas/",
+							"host": [
+								"localhost"
+							],
+							"port": "8011",
+							"path": [
+								"controle-pessoas-ms",
+								"api",
+								"pessoas",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Consult BY id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8011/controle-pessoas-ms/api/pessoas/1",
+							"host": [
+								"localhost"
+							],
+							"port": "8011",
+							"path": [
+								"controle-pessoas-ms",
+								"api",
+								"pessoas",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Register person",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"nome\" : \"Ciclano\",\r\n\"sobrenome\" :\"Tales\"\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8011/controle-pessoas-ms/api/pessoas",
+							"host": [
+								"localhost"
+							],
+							"port": "8011",
+							"path": [
+								"controle-pessoas-ms",
+								"api",
+								"pessoas"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
